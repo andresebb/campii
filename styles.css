@@ -16,7 +16,7 @@ footer {
 }
 
 .navbar {
-  background: transparent;
+  background: transparent !important;
   position: fixed;
   z-index: 20;
   top: 0;
@@ -25,20 +25,8 @@ footer {
   transition: 0.8s;
 }
 
-@media screen and (max-width 768px) {
-  .navbar {
-    background: transparent;
-    position: fixed;
-    z-index: 20;
-    top: 0;
-    right: 0;
-    left: 0;
-    transition: 0.8s;
-  }
-}
-
 .verde {
-  background: rgb(38 38 38);
+  background: rgb(38 38 38) !important;
   transition: 0.8s;
 }
 .blanco {
