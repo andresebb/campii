@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand nav-link" href="#">Campii</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item header-text">
+              <a class="nav-link" href="#aventuras">Aventuras</a>
+            </li>
+            <li class="nav-item header-text">
+              <a class="nav-link" href="#aventuras">Destinos</a>
+            </li>
+            <li class="nav-item header-text">
+              <a class="nav-link" href="#about">Somos campi</a>
+            </li>
+            <li class="nav-item header-text">
+              <a
+                class="nav-link"
+                data-toggle="modal"
+                data-target="#modalViajemos"
+                >Viajemos Juntos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <div
+        id="carrousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+        data-pause="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="imagenuno"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="imagendos"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="imagentres"></div>
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="container container-hero">
+            <div class="row">
+              <div class="col-6 offset-6 text">
+                <h1 class="">Bienvenido a Campii</h1>
+                <p>
+                  Acompananos a disfrutar todas esas aventuras al aire libre,
+                  conoceras hermosos paisajes y destinos maravillosos, donde por
+                  lo unico que te arrepentiras es no habernos acompanado
+                  antes... <span style="font-weight: bold">¿Que esperas?</span>
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-toggle="modal"
+                  data-target="#staticBackdrop"
+                >
+                  Viajemos juntos
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- About Us -->
+    <section id="about" class="about text-center">
+      <h2 class="mb-4 mt-4 text-uppercase">Sobre Nosotros</h2>
+      <div class="container container-about">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <img
+              class="rounded-lg"
+              src="https://images.unsplash.com/photo-1579602747233-91f0cec30864?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-lg-6 my-auto">
+            <div>
+              <h2 class="mt-4 mt-md-0">Somos la familia Campii</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                dolorum, repudiandae alias, odio laboriosam magni sed,
+                cupiditate recusandae saepe sit fugit quam ipsam est. Enim hic
+                ut voluptatum debitis officia!
+              </p>
+              <span class="badge badge-success">Naturaleza</span>
+              <span class="badge badge-primary">Aire libre</span>
+              <span class="badge badge-warning">Tranquilidad</span>
+              <span class="badge badge-secondary">Relajacion</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aventuaras -->
+    <section id="aventuras" class="aventuras mt-4">
+      <h2 class="text-center text-uppercase">Nuestras Aventuras</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4">
+              <img
+                src="https://images.unsplash.com/photo-1539557485364-9b30f842f852?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Calderas</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4">
+              <img
+                src="https://images.unsplash.com/photo-1470071979711-64b9c133cad0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Calderas</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4">
+              <img
+                src="https://images.unsplash.com/photo-1509526756864-498e4cd78312?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Calderas</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Viajemos Juntos -->
+    <section id="contacto" class="contacto text-center">
+      <h2 class="text-uppercase">¿Listo para viajar Juntos?</h2>
+      <p>Acompananos en la siguiente aventura, anotate!!</p>
+      <div class="container">
+        <form class="mb-4">
+          <div class="form-row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+              />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" />
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <button class="btn btn-success text-left mx-auto">
+            Estoy listo!
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="container-fluid p-4">
+      <div class="row text-center">
+        <small> Design By Andres Betancourt </small>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-backdrop="static"
+      data-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
